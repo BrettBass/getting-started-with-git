@@ -133,6 +133,36 @@ begin
     count <= pre_count;
 end Behavioral;
 ```
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity counter is
+    port (
+        clk : in std_logic;
+        reset : in std_logic;
+        enable : in std_logic;
+        count : out std_logic_vector(3 downto 0)
+    );
+end counter;
+
+architecture Behavioral of counter is
+    signal pre_count : std_logic_vector(3 downto 0);
+begin
+    process (clk, enable, reset)
+    begin
+        if reset = '1' then
+            pre_count <= "0000";
+        elsif (clk = '1' and clk'event) then
+            if enable = '1' then
+                pre_count <= pre_count + "1";
+            end if;
+        end if;
+    end process;
+    count <= pre_count;
+end Behavioral;
+```
 
 :point_right: **Task 9**: Use the following command to see all unstaged files
 
@@ -145,6 +175,7 @@ See here for syntax info: https://git-scm.com/docs/git-status
 and save the file as `git_stat.png` in the `./img` folder.
 On line 45 of README add the screenshot image to show up in your file.
 Use `git status before stage` as alternate name of your image.
+![git status before stage](./img/git_stat.png)
 
 :point_right: **Task 11**: Press enter to add a new line which would be line 46
 in your README file. Files should have an empty line at the end. No whitespace
