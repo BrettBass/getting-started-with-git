@@ -3,8 +3,8 @@
 **Date: 08/26/2024**
 1. FPGA
 1. VHDL
-1. Verilog
-![CSUN ENG](./img/csun_eng_logo)\
+1. Verilog\
+![CSUN ENG](./img/csun_eng_logo.png)\
 [Brett Bass](https://github.com/BrettBass/)
 ```vhdl
 library ieee;
