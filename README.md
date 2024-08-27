@@ -4,7 +4,7 @@
 1. FPGA
 1. VHDL
 1. Verilog
-![CSUN ENG](./img/csun_eng_logo)
+![CSUN ENG](./img/csun_eng_logo)\
 [Brett Bass](https://github.com/BrettBass/)
 ```vhdl
 library ieee;
