@@ -180,6 +180,7 @@ Use `git status before stage` as alternate name of your image.
 :point_right: **Task 11**: Press enter to add a new line which would be line 46
 in your README file. Files should have an empty line at the end. No whitespace
 or other character should be on the last line.
+\
 
 :point_right: **Task 12**: Use the following command to stage all files
 
