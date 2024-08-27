@@ -69,7 +69,7 @@ Getting started with Git
 Name: Brett Bass
 Date: 08/26/2024
 ```
-**Name: Brett Bass**<space><space>
+**Name: Brett Bass**\
 **Date: 08/26/2024**
 
 In the above make sure to preview your README file to make sure each
@@ -97,6 +97,8 @@ Verilog
 Make sure the link is on separate line and not on the same line as image.
 
 *Hint: Having an extra line will let Markdown compiler to use a line break.*
+
+[Brett Bass](https://github.com/BrettBass/)
 
 :point_right: **Task 7**: Add the following VHDL code on line 14. Make sure to
 use `vhdl` keyword at the code block to highlight VHDL syntax.
