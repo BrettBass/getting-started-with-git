@@ -54,18 +54,18 @@ Updae the README.md file with the following markdown tags:
 
 :point_right: **Task 2**: Make the following text a heading 1 on the first line of README.md file in the main folder:
 ```
-CSUN ECE your-class-number
+# CSUN ECE your-class-number
 ```
 
 :point_right: **Task 3**: Make the following text a heading 2 on the second line of README.md file in the main folder:
 ```
-Getting started with Git
+## Getting started with Git
 ```
 
 :point_right: **Task 4**: Make the following text bold on the lines 3 to 4 README.md file in the main folder:
 ```
-Name: your-name
-Date: submission-date
+**Name: Brett Bass**<space><space>
+**Date: 08/26/2024**
 ```
 
 In the above make sure to preview your README file to make sure each 
