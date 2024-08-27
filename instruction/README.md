@@ -175,7 +175,7 @@ See here for syntax info: https://git-scm.com/docs/git-status
 and save the file as `git_stat.png` in the `./img` folder.
 On line 45 of README add the screenshot image to show up in your file.
 Use `git status before stage` as alternate name of your image.
-![git status before stage](./img/git_stat.png)
+![git status before stage](../img/git_stat.png)
 
 :point_right: **Task 11**: Press enter to add a new line which would be line 46
 in your README file. Files should have an empty line at the end. No whitespace
